@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+body#index {
+    background-color: #e8d6d2;
+    background-image: url(../img/1437471685410.jpg);
+}
+body#about {
+	background-color: #e8d6d2;
+    background-image: url(../img/about背景.png);
+}
+body#photo {
+	background-color: #e8d6d2;
+    background-image: url(../img/photo.png);	
+}
+body#live {
+	background-color: #e8d6d2;
+    background-image: url(../img/U10774P28DT20140220174302.jpg);	
+}
+body#contact {
+	background-color: #e8d6d2;
+    background-image: url(../img/t01a5c984bf08ffe71e.jpg);		
+}
+.here {
+	background-color: #FFFFFF;
+	color: #7d7775 !important;
+}
+
+/*导航部分*/
+header {
+	width: 900px;
+	height: 340px;
+	margin: 0 auto;	
+	background-color: #c7c1c1;
+	color: #000000;
+	overflow: hidden;
+	position: relative;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+header img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+nav {
+	width: 900px;
+	background-color: #7d7775;
+	margin: 0 auto;
+    color: white;
+}
+header ul {
+	text-align: center;
+}
+nav li {
+    display: inline-block;
+    padding: 0px 41px;
+    margin-right: 0px;
+    font-size: 1.5em;
+    border-right: 1px solid #ccb4b4;
+}
+nav li:last-child{
+	width: 102px;
+}
+nav li:hover{
+	opacity: 0.8;
+}
+nav li:last-child{
+	border:none;
+}
+nav li a {
+	color: white;
+}
+nav li a:link{
+	text-shadow: 2px 2px 5px #000000;
+}
+/*内容部分*/
+article {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #f1f0f0;
+    padding: 20px 50px;
+    line-height: 40px;
+    opacity: 0.9;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+article:hover {
+	opacity: 1;
+}
+article>p{
+	text-indent: 2em;
+}
+section#select ul {
+	text-align: center;
+}
+section#select li {
+	display: inline-block;
+	padding: 0 10px;
+}
+section#select a {
+	color: black;
+}
+section#select a:hover{
+	color: gray;
+}
+table{
+	border: 1px solid silver;
+	margin: 0 auto;
+	width: 100%;
+}
+body#photo article ul,body#photo article h2{
+	text-align: center;
+}
+body#photo article li{
+	width: 150px;
+	height: 100px;
+	display: inline-block;
+	padding: 0 10px;
+	
+}
+body#photo article li img{
+	width: 150px;
+	height: 100px;
+
+}
+section#display {
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+	/*opacity: 1 !important;*/
+}
+section#display img {
+	top:0px;
+	left: 0px;
+	position: absolute;
+	/*opacity: 1 !important;*/
+}
+fieldset{
+	border: 0;
+    margin-left: 60px;
+    margin-top: 21px;
+}
+label {
+	display: block;
+}
+
